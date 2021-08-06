@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E05B138F26BD6BAF00920AD6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B138E26BD6BAF00920AD6 /* Constant.swift */; };
 		E08045B526B7D787007D8CFD /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08045B426B7D787007D8CFD /* TouchdownApp.swift */; };
 		E08045B726B7D787007D8CFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08045B626B7D787007D8CFD /* ContentView.swift */; };
 		E08045B926B7D78B007D8CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08045B826B7D78B007D8CFD /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E05B138E26BD6BAF00920AD6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		E08045B126B7D787007D8CFD /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08045B426B7D787007D8CFD /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		E08045B626B7D787007D8CFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E05B138726BD6A1B00920AD6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E05B138E26BD6BAF00920AD6 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E05B138826BD6A2B00920AD6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E05B138926BD6A3F00920AD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E05B138A26BD6A5800920AD6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E08045B426B7D787007D8CFD /* TouchdownApp.swift */,
+				E08045B626B7D787007D8CFD /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E05B138B26BD6A9400920AD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E05B138D26BD6ABD00920AD6 /* Home */,
+				E05B138C26BD6AAC00920AD6 /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E05B138C26BD6AAC00920AD6 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		E05B138D26BD6ABD00920AD6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		E08045A826B7D787007D8CFD = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +116,12 @@
 		E08045B326B7D787007D8CFD /* Touchdown */ = {
 			isa = PBXGroup;
 			children = (
+				E05B138A26BD6A5800920AD6 /* App */,
+				E05B138B26BD6A9400920AD6 /* View */,
 				E08045CC26B7E83C007D8CFD /* Data */,
-				E08045B426B7D787007D8CFD /* TouchdownApp.swift */,
-				E08045B626B7D787007D8CFD /* ContentView.swift */,
+				E05B138926BD6A3F00920AD6 /* Model */,
+				E05B138726BD6A1B00920AD6 /* Utility */,
+				E05B138826BD6A2B00920AD6 /* Extension */,
 				E08045B826B7D78B007D8CFD /* Assets.xcassets */,
 				E08045BD26B7D78B007D8CFD /* Info.plist */,
 				E08045BA26B7D78B007D8CFD /* Preview Content */,
@@ -164,6 +223,7 @@
 			files = (
 				E08045B726B7D787007D8CFD /* ContentView.swift in Sources */,
 				E08045B526B7D787007D8CFD /* TouchdownApp.swift in Sources */,
+				E05B138F26BD6BAF00920AD6 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
