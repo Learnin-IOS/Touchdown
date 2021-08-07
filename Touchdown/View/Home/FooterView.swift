@@ -13,10 +13,12 @@ struct FooterView: View {
             Text("We offer the most cutting edge, confortable, lightweight and durable football helmets in the market at afordable prices.")
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
+                .layoutPriority(2)
             
             Image("logo-lineal")
                 .renderingMode(.template)
                 .foregroundColor(.gray)
+                .layoutPriority(0)
             
             Text("Copyright © Le Bon B' Bauma\nAll right reserved ")
                 .font(.footnote)
