@@ -23,6 +23,7 @@ struct FooterView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
+                .layoutPriority(1)
             
         }//: VSTACK
         .padding()
