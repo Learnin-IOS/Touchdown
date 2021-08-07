@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E05B138F26BD6BAF00920AD6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B138E26BD6BAF00920AD6 /* Constant.swift */; };
 		E07E952426BF266A0085D0FB /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07E952326BF266A0085D0FB /* FooterView.swift */; };
+		E07E952626BF39CE0085D0FB /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07E952526BF39CE0085D0FB /* NavigationBarView.swift */; };
+		E07E952826BF3E1F0085D0FB /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07E952726BF3E1F0085D0FB /* LogoView.swift */; };
 		E08045B526B7D787007D8CFD /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08045B426B7D787007D8CFD /* TouchdownApp.swift */; };
 		E08045B726B7D787007D8CFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08045B626B7D787007D8CFD /* ContentView.swift */; };
 		E08045B926B7D78B007D8CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08045B826B7D78B007D8CFD /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		E05B138E26BD6BAF00920AD6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		E07E952326BF266A0085D0FB /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		E07E952526BF39CE0085D0FB /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		E07E952726BF3E1F0085D0FB /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		E08045B126B7D787007D8CFD /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08045B426B7D787007D8CFD /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		E08045B626B7D787007D8CFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				E07E952326BF266A0085D0FB /* FooterView.swift */,
+				E07E952526BF39CE0085D0FB /* NavigationBarView.swift */,
+				E07E952726BF3E1F0085D0FB /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -225,7 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E08045B726B7D787007D8CFD /* ContentView.swift in Sources */,
+				E07E952826BF3E1F0085D0FB /* LogoView.swift in Sources */,
 				E07E952426BF266A0085D0FB /* FooterView.swift in Sources */,
+				E07E952626BF39CE0085D0FB /* NavigationBarView.swift in Sources */,
 				E08045B526B7D787007D8CFD /* TouchdownApp.swift in Sources */,
 				E05B138F26BD6BAF00920AD6 /* Constant.swift in Sources */,
 			);
