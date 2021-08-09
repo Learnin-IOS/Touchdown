@@ -20,6 +20,7 @@ struct FeaturedTabView: View {
                 FeaturedItemView(player: player)
                     .padding(.top, 10)
                     .padding(.horizontal, 15)
+                    .padding(.bottom, 10)
             }//: LOOP
         } //: TAB
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
@@ -30,6 +31,7 @@ struct FeaturedTabView: View {
 struct FeaturedTabView_Previews: PreviewProvider {
     static var previews: some View {
         FeaturedTabView()
+            .previewDevice("iPhone 12 Pro")
             .background(Color.gray)
     }
 }
