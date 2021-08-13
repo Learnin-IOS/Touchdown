@@ -11,6 +11,7 @@ struct LogoView: View {
     // MARK: - Properties
     
     
+    
     // MARK: - Body
 
     var body: some View {
