@@ -47,6 +47,7 @@ struct NavigationBarView: View {
                 }//: ZSTACK
                 
             })// BUTON
+            
         }//: HSTACK
     }
 }
