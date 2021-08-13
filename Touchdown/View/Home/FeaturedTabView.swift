@@ -21,6 +21,7 @@ struct FeaturedTabView: View {
                     .padding(.top, 10)
                     .padding(.horizontal, 15)
                     .padding(.bottom, 10)
+                
             }//: LOOP
         } //: TAB
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
