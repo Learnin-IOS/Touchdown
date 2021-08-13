@@ -13,6 +13,7 @@ struct FeaturedItemView: View {
   let player: Player
   
   // MARK: - BODY
+    
   
   var body: some View {
     Image(player.image)
