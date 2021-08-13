@@ -20,6 +20,7 @@ struct FooterView: View {
                 .foregroundColor(.gray)
                 .layoutPriority(0)
             
+            
             Text("Copyright © Le Bon B' Bauma\nAll right reserved ")
                 .font(.footnote)
                 .fontWeight(.bold)
