@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FeaturedTabView: View {
+    
     // MARK: - Properties
     
     
