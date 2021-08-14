@@ -35,6 +35,7 @@ struct ContentView: View {
                 }) // : SCROLL
                 
             }//: VSATCK
+            
             .background(colorBackground.ignoresSafeArea(.all, edges: .all))
         }//: ZSTACK
         .ignoresSafeArea(.all, edges: .top )
