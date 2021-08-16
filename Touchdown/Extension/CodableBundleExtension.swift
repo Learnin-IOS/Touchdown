@@ -23,6 +23,7 @@ extension Bundle {
     
         
         // 4. Create a property for the decoded data
+        
         guard let decodedData = try? decoder.decode(T.self, from: data) else {
             fatalError("Failed to decode \(file) fromo bundle")
         }
