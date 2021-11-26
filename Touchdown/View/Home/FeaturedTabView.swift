@@ -19,9 +19,9 @@ struct FeaturedTabView: View {
         TabView {
             ForEach(players) { player in
                 FeaturedItemView(player: player)
-                    .padding(.top, 10)
-                    .padding(.horizontal, 15)
-                    .padding(.bottom, 10)
+//                    .padding(.top, 10)
+//                    .padding(.horizontal, 15)
+//                    .padding(.bottom, 10)
                 
             }//: LOOP
         } //: TAB
