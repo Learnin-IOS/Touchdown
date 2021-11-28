@@ -21,13 +21,13 @@ struct ContentView: View {
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
                     .background(Color.white)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
-                ScrollView(.vertical, showsIndicators: false, content:{
+                 ScrollView(.vertical, showsIndicators: false, content:{
                     VStack { 
                         
                         FeaturedTabView()
                             .frame(width: UIScreen.main.bounds.width - 50, height: 210)
                             .padding(.vertical, 20)
-                        Spacer()
+                        CategoryGridView()
                         
                         FooterView()
                             .padding(.horizontal)
@@ -48,6 +48,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewDevice("iPhone 12 Pro")
+//            .previewDevice("iPhone 12 Pro")
     }
 }
