@@ -25,7 +25,7 @@ struct ContentView: View {
                     VStack {
                         
                         FeaturedTabView()
-//                            .frame(width: 380, height: 210, alignment: .center)
+//                            .frame(width: 380, height: 210, 
                             .frame(width: UIScreen.main.bounds.width - 50, height: 210)
                             .padding(.vertical, 20)
                         Spacer()
