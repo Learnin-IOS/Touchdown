@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F8E051627551D39000CD8DB /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8E051527551D39000CD8DB /* BrandModel.swift */; };
 		8FD802712754276300E25A29 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD802702754276300E25A29 /* CategoryModel.swift */; };
 		8FD8027327542A7400E25A29 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8027227542A7400E25A29 /* CategoryItemView.swift */; };
 		8FD8027527542F0B00E25A29 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8027427542F0B00E25A29 /* CategoryGridView.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F8E051527551D39000CD8DB /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		8FD802702754276300E25A29 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		8FD8027227542A7400E25A29 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		8FD8027427542F0B00E25A29 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				E07E952F26BF51BA0085D0FB /* PlayerModel.swift */,
 				8FD802702754276300E25A29 /* CategoryModel.swift */,
 				8FD8027A2754C30400E25A29 /* ProductModel.swift */,
+				8F8E051527551D39000CD8DB /* BrandModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				8FD8027327542A7400E25A29 /* CategoryItemView.swift in Sources */,
 				E07E953426BF56F20085D0FB /* FeaturedTabView.swift in Sources */,
 				E05B138F26BD6BAF00920AD6 /* Constant.swift in Sources */,
+				8F8E051627551D39000CD8DB /* BrandModel.swift in Sources */,
 				8FD802792754BE8900E25A29 /* TitleView.swift in Sources */,
 				8FD8027B2754C30400E25A29 /* ProductModel.swift in Sources */,
 			);
