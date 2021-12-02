@@ -14,6 +14,7 @@ struct TouchdownApp: App {
         WindowGroup {
             
             ContentView()
+                .environmentObject(Shop())
         }
     }
 }
