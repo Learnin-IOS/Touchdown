@@ -56,7 +56,7 @@ struct ContentView: View {
                                 .padding(.horizontal)
                         } //: VSTACK
                     }) // : SCROLL
-                }//: VSATCK
+                }//: VSTACK
                 .background(colorBackground.ignoresSafeArea(.all, edges: .all))
             } else {
                  ProductDetailView()
