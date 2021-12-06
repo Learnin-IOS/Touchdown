@@ -19,6 +19,7 @@ struct ProductDetailView: View {
             NavigationBarDetailView()
                 .padding(.horizontal)
                 .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+
             // HEADER
             HeaderDetailedView()
                 .padding(.horizontal)
