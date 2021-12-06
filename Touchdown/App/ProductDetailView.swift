@@ -36,6 +36,7 @@ struct ProductDetailView: View {
                 RaitingsSizesDetailView()
                     .padding(.top, -25)
                     .padding(.bottom, 10)
+                
                 // DESCRIPTION
                 ScrollView(.vertical, showsIndicators: false, content: {
                     Text(shop.selectedProduct?.description ?? sampleProduct.description)
