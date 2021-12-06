@@ -15,6 +15,7 @@ struct ProductDetailView: View {
     // MARK: - Body
     var body: some View {
         VStack(alignment: .leading, spacing: 5, content: {
+
             // NAVBAR
             NavigationBarDetailView()
                 .padding(.horizontal)
@@ -36,13 +37,14 @@ struct ProductDetailView: View {
                 RaitingsSizesDetailView()
                     .padding(.top, -25)
                     .padding(.bottom, 10)
-                
+
                 // DESCRIPTION
                 ScrollView(.vertical, showsIndicators: false, content: {
                     Text(shop.selectedProduct?.description ?? sampleProduct.description)
                         .font(.system(.body, design: .rounded))
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.leading)
+
                 }) //: SCROLL
                 
                 // QUANTITY + FAVOURITE
