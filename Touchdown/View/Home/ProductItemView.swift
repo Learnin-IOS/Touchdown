@@ -16,6 +16,7 @@ struct ProductItemView: View {
     // MARK: -Body
     var body: some View {
         VStack(alignment: .leading, spacing: 6, content: {
+            
              // PHOTO
             ZStack{
                 Image(product.image)
