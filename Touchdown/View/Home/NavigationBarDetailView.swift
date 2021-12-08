@@ -26,6 +26,7 @@ struct NavigationBarDetailView: View {
                 Image(systemName: "chevron.left")
                     .font(.title)
                     .foregroundColor(.white)
+                
             }) //: BUTTON
             
             Spacer()
