@@ -20,6 +20,7 @@ struct HeaderDetailedView: View {
             Text(shop.selectedProduct?.name ?? sampleProduct.name)
                 .font(.largeTitle)
                 .fontWeight(.black)
+            
         }) //: VSTACK
             .foregroundColor(.white)
     }
