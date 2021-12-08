@@ -37,6 +37,7 @@ struct AddToCartDetailView: View {
 }
 
 // MARK: - Preview
+
 struct AddToCartDetailView_Previews: PreviewProvider {
     static var previews: some View {
         AddToCartDetailView()
