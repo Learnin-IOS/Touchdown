@@ -36,6 +36,7 @@ struct QuantityFavouriteDetailView: View {
                 }
             }, label: {
                 Image(systemName: "plus.circle")
+                
             })//: BUTTON
             Spacer()
             
