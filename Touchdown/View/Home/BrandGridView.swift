@@ -26,6 +26,7 @@ struct BrandGridView: View {
     }
 }
 
+
 // MARK: - Previwe
 struct BrandGridView_Previews: PreviewProvider {
     static var previews: some View {
