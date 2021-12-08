@@ -38,6 +38,7 @@ struct RaitingsSizesDetailView: View {
         Spacer()
             
             //SIZES
+            
             VStack(alignment: .trailing, spacing: 3, content: {
                 Text("Sizes")
                     .font(.footnote)
