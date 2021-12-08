@@ -30,6 +30,7 @@ struct TopPartDetailView: View {
                 .offset(y: isAnimating ? -50 : -75)
             
             Spacer()
+            
             // PHOTO
             
             Image(shop.selectedProduct?.image ?? sampleProduct.image)
