@@ -26,6 +26,7 @@ struct BrandItemView: View {
 }
 
 // MARK: - Preview
+
 struct BrandItemView_Previews: PreviewProvider {
     static var previews: some View { 
         BrandItemView(brand: brands[0])
