@@ -19,8 +19,7 @@ struct CategoryGridView: View {
                     header: SectionView(rotateClockWise: false),
                     footer: SectionView(rotateClockWise: true)
                 ) {
-                    ForEach(categories) { category in CategoryItemView(category: category)
-                        
+                    ForEach(categories) { category in CategoryItemView(category: category)    
                     }
                 }
             }) //:  GRID
