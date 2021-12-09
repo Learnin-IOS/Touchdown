@@ -13,6 +13,7 @@ struct CategoryItemView: View {
     let category: Category
     // MARK: Body
     var body: some View {
+        
         Button(action: {}, label:{
             HStack(alignment: .center, spacing: 6 ) {
                 Image(category.image)
