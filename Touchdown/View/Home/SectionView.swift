@@ -25,6 +25,7 @@ struct SectionView: View {
                 .rotationEffect(Angle(degrees: rotateClockWise ? 90 : -90))
             
             Spacer()
+            
         } //: VSTACK
         .background(colorGray.cornerRadius(12))
         .frame(width: 85)
