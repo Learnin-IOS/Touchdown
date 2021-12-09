@@ -14,6 +14,7 @@ struct BrandGridView: View {
     
     // MARK: - Body
     var body: some View {
+        
         ScrollView (.horizontal, showsIndicators: false, content: {
             LazyHGrid(rows: gridLayout, spacing: columnSpacing, content: {
                 ForEach(brands) { brand in
