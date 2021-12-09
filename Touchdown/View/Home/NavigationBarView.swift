@@ -16,6 +16,7 @@ struct NavigationBarView: View {
 
     var body: some View {
         HStack {
+            
             Button(action: {}, label: {
              Image(systemName: "magnifyingglass")
                 .font(.title)
