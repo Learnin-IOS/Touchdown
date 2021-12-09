@@ -14,7 +14,6 @@ struct FeaturedTabView: View {
     
     
     // MARK: - Body
-
     var body: some View {
         TabView {
             ForEach(players) { player in
