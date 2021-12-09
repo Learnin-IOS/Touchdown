@@ -42,6 +42,7 @@ struct ProductItemView: View {
 }
 
 // MARK: - Preview
+
 struct ProductItemView_Previews: PreviewProvider {
     static var previews: some View {
         ProductItemView(product: products[0])
