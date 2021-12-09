@@ -14,6 +14,7 @@ struct BrandItemView: View {
     
     // MARK: - Body
     var body: some View {
+        
         Image(brand.image)
             .resizable()
             .scaledToFit()
